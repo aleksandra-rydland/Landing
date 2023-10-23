@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My website</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+   
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lora:wght@400;600&family=PT+Serif&family=Roboto:wght@100;400&family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap" rel="stylesheet">
+    
+ 
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/components/marquee.css">
+  <link rel="stylesheet" type="text/css" href="CSS/components/banner.css">
+<link rel="stylesheet" type="text/css" href="CSS/components/button.css">
+<link rel="stylesheet" type="text/css" href="CSS/components/card.css">
+<link rel="stylesheet" type="text/css" href="CSS/components/carousel.css">
+<link rel="stylesheet" type="text/css" href="CSS/components/container.css">
+<link rel="stylesheet" type="text/css" href="CSS/howto.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    
+  
+    <style>
+        .marquee-container marquee {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+	<a id="top"></a>
+
+    <div class="banner">
+        <div class="container">
+            <h1>Aleksandra's Kitchen</h1>
+            <h2>Crafted with Love, Served with Joy</h2>
+            <a href="#apply-section" class="btn-blue start-exploring-btn">Start Exploring</a>
+        </div>
+    </div>
+
+<div class="navigation">
+    <a href="all-recipes.html" class="nav-button" target="_blank">
+        <i class="fas fa-utensils"></i>
+        All Recipes
+    </a>
+    <a href="breakfast.html" class="nav-button" target="_blank">
+        <i class="fas fa-egg"></i>
+        Breakfast
+    </a>
+    <a href="lunch.html" class="nav-button" target="_blank">
+        <i class="fas fa-drumstick-bite"></i>
+        Lunch
+    </a>
+    <a href="dinner.html" class="nav-button" target="_blank">
+        <i class="fas fa-hamburger"></i>
+        Dinner
+    </a>
+    <a href="dessert.html" class="nav-button" target="_blank">
+        <i class="fas fa-ice-cream"></i>
+        Dessert
+    </a>
+    <a href="snacks.html" class="nav-button" target="_blank">
+        <i class="fas fa-apple-alt"></i>
+        Snacks
+    </a>
+      <a href="search.html" class="nav-button" target="_blank">
+       <i class="fas fa-search"></i>
+        Search
+    </a>
+</div>
+
+<div class="marquee-container">
+    <marquee behavior="scroll" direction="left" scrollamount="5">🍸New exclusive recipes every week🍸</marquee>
+</div>
+
+<div class="container">
+    <h3>RECENT POSTS:</h3>
+    <a href="#" class="all-posts-btn">ALL RECENT POSTS <span>&rarr;</span></a>
+    <div class="recipes-grid">
+        <div class="recipe-card">
+            <img src="foodimages/frenchtoast.jpg" alt="Recipe 1" class="recipe-image">
+            <p>Easy French Toast</p>
+        </div>
+        <div class="recipe-card">
+            <img src="foodimages/pizza.jpg" alt="Recipe 2" class="recipe-image">
+            <p>Pizza Margaritha 4 Ways</p>
+        </div>
+        <div class="recipe-card">
+            <img src="foodimages/tomatosoup.jpg" alt="Recipe 3" class="recipe-image">
+            <p>Roasted Tomato Basil Soup</p>
+        </div>
+        <div class="recipe-card">
+            <img src="foodimages/cupcake.jpg" alt="Recipe 4" class="recipe-image">
+            <p>Ferrero Rocher Stuffed Cupcakes</p>
+        </div>
+    </div>
+</div>
+
+
+<section class="how-to-section">
+    <h2>How To:</h2>
+    <p>Make</p>
+    
+    <div class="items-container">
+        <div class="how-to-item">
+
+            <img src="foodimages/tagliatelle.jpg" alt="homemade-pasta">
+            <p>Homemade Pasta</p>
+        </div>
+
+        <div class="how-to-item">
+            <img src="foodimages/guac.jpg" alt="Guacamole">
+            <p>Guacamole</p>
+        </div>
+
+        <div class="how-to-item">
+            <img src="foodimages/mocktail.jpg" alt="Mocktail">
+            <p>Fruity Mocktail</p>
+        </div>
+
+        <div class="how-to-item">
+            <img src="foodimages/roast.jpg" alt="Roasted Potatoes">
+            <p>Roasted Potatoes</p>
+        </div>
+    </div>
+</section>
+
+<div class="marquee-container">
+      <marquee behavior="scroll" direction="right" scrollamount="5">🌶️ Its all about the sauce🌶️ </marquee>
+    </div>
+
+
+  
+
+
+  
+	
+<input type="radio" name="carousel-control" id="slide1" checked>
+<input type="radio" name="carousel-control" id="slide2">
+<input type="radio" name="carousel-control" id="slide3">
+
+
+<h4 style="margin-top: 35px;">SHOP OUR HOTSAUCES</h4>
+
+<div class="carousel-container">
+  
+    <label for="slide1" class="arrow arrow-left">&#8592;</label>
+
+    <div class="carousel">
+        <div class="product-card">
+    <img src="foodimages/HSAUCE1.jpg" alt="Product 1 Image">
+    <p>Solar Sizzle</p>
+    <p>$14.99</p>
+   
+    <a href="#" class="shop-button" target="_blank">Shop Now</a>
+</div>
+      <div class="product-card">
+            <img src="foodimages/HSAUCE2.jpg" alt="Product 2 Image">
+            <p>Chili Charade</p>
+            <p>$14.99</p>
+             <a href="#" class="shop-button" target="_blank">Shop Now</a>
+      </div>
+      <div class="product-card">
+            <img src="foodimages/HSAUCE3.jpg" alt="Product 3 Image">
+            <p>Lava Lips</p>
+            <p>$14.99</p>
+             <a href="#" class="shop-button" target="_blank">Shop Now</a>
+      </div>
+      <div class="product-card">
+            <img src="foodimages/bundle.jpg" alt="Product 4 Image">
+            <p>Favorites Bundle</p>
+            <p>$29.99</p>
+           <a href="#" class="shop-button" target="_blank">Shop Now</a>
+      </div>
+          <div class="product-card">
+            <img src="foodimages/tango.jpg" alt="Product 5 Image">
+            <p>Tango</p>
+            <p>$14.99</p>
+           <a href="#" class="shop-button" target="_blank">Shop Now</a>
+      </div>
+         <div class="product-card">
+            <img src="foodimages/dragon.jpg" alt="Product 6 Image">
+            <p>Dragons Breath</p>
+            <p>$14.99</p>
+            <a href="#" class="shop-button" target="_blank">Shop Now</a>
+      </div>
+    </div>
+
+    <label for="slide2" class="arrow arrow-right">&#8594;</label>
+</div>
+
+
+
+<h4>BROWSE BY DIETARY NEEDS:</h4>
+<div class="cards">
+    <!-- Card 1 -->
+    <div class="card">
+        <img src="foodimages/pancakes.jpg" alt="Pancakes">
+        <h3>Vegan Recipes</h3>
+        <a href="blank" class="btn-blue card-button" target="_blank">To recipes</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <img src="foodimages/cookies.jpg" alt="cookies" style="height: 300px;">
+        <h3>Egg Free Recipes</h3>
+        <a href="blank" class="btn-blue card-button" target="_blank">To recipes</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card profile-card">
+       <div class="card-content special-width">
+            <h3>Welcome to Aleksandra's Kitchen!</h3>
+            <div class="Avatar">
+                <img src="images/selfie.jpg" alt="Aleksandra">
+            </div>
+            <p style="padding-bottom: 20px;">My name is Aleksandra Rydland and I'm so excited to share my recipes with you. From weekend breakfasts, easy and yummy desserts to tasty family dinner meals for everyone to enjoy!</p>
+            <a href="https://aleksandra-rydland.github.io/my-profile/" class="btn-blue card-button" target="_blank">More About Me</a>
+        </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+        <img src="foodimages/donuts.jpg" alt="Donuts" style="height: 300px;">
+        <h3>Gluten Free Recipes</h3>
+        <a href="blank" class="btn-blue card-button" target="_blank">To recipes</a>
+    </div>
+</div>
+
+
+
+		<div id="apply-section">
+
+	<div id="apply-section">
+	    <div data-tf-live="01HD9RGPT7WEEGKKKXBA1AFX3H"></div>
+	</div>
+
+   <script src="https://embed.typeform.com/next/embed.js"></script>
+
+
+	</div>
+
+<a href="#top" class="to-top-button"><i class="fas fa-arrow-up"></i></a>
+
+
+</body>
+</html>

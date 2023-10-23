@@ -1,0 +1,56 @@
+.how-to-item {
+    width: 23%;  
+}
+
+.how-to-item img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px; 
+    transition: opacity 0.3s ease; 
+}
+
+.how-to-item img:hover {
+    opacity: 0.7;  
+}
+
+.how-to-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.how-to-section h2,
+.how-to-section p {
+    color: black;
+}
+
+.how-to-section {
+    background-color: #F2F5F8 !important;
+    padding: 20px !important;
+}
+
+.recipe-image:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+
+
+@media (max-width: 960px) {
+    .how-to-item {
+        flex-basis: calc(33.333% - 20px);
+    }
+}
+
+@media (max-width: 720px) {
+    .how-to-item {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 540px) {
+    .how-to-item {
+        flex-basis: calc(100% - 20px);
+    }
+}

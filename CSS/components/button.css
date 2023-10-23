@@ -1,0 +1,67 @@
+.btn-blue, .nav-button {
+    background-color: #4E5165;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: center; 
+}
+
+.btn-blue:hover, .nav-button:hover {
+    background-color: #3B3C50; 
+    cursor: pointer; 
+}
+
+.btn-blue.start-exploring-btn {
+    background-color: #507D5E;  
+    color: white;             
+}
+
+.btn-blue.start-exploring-btn:hover {
+    background-color: #4E5165;  
+    color: #ffffff;             
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #4E5165;  
+    padding: 10px 0;
+}
+
+.nav-button i {
+    display: block; 
+    font-size: 24px; 
+    margin-bottom: 15px; 
+}
+.nav-button {
+
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.start-exploring-btn:hover {
+    background-color: #5D7F61; 
+    cursor: pointer; 
+}
+
+
+
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-button {
+        margin: 10px 0;
+    }
+}
+
